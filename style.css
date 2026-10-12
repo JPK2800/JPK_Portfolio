@@ -19,7 +19,6 @@
       padding: 0 10px;
     }
 
-    /* Header */
     .header {
       min-height: 83px;
       padding: 0 12px 9px;
@@ -60,7 +59,6 @@
       color: #ffffff;
     }
 
-    /* Navigation */
     nav {
       display: flex;
       flex-wrap: wrap;
@@ -78,9 +76,8 @@
       color: #61E786;
     }
 
-    /* Main project content */
     main {
-      background: #494e5e;
+      background: #494e61;
       padding: 20px 22px 30px;
       min-height: 600px;
     }
@@ -94,6 +91,12 @@
       font-weight: 900;
       letter-spacing: -1px;
       text-transform: uppercase;
+    }
+
+    .project-gap {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border-top: 5px solid #494e5e;
     }
 
     .project-subtitle {
@@ -112,7 +115,7 @@
     }
 
     .project-description {
-      margin: 0 0 17px;
+      margin: 0 0 12px;
     }
 
     .project-list {
