@@ -59,11 +59,32 @@
             style="color: #42a6bf;">Steam</a></p>
         </h3>
 
-        <img
-          class="project-image"
-          src="lotl.jpg"
-          alt="Library on the Lake (Black Banshee Studios, 2026)"
-        >
+        <div class="slideshow"
+          data-slideshow
+          data-images='["images/lotl-1.png","images/lotl-2.png","images/lotl-3.png", "images/lotl-4.png"]'>
+          
+          <button class="slide-arrow prev"
+                  type="button"
+                  aria-label="Previous image">
+            &#10094;
+          </button>
+
+          <img
+            class="slide-image"
+            src="images/lotl-1.png"
+            alt="Trick nor Treat gameplay screenshot"
+          >
+
+          <button class="slide-arrow next"
+                  type="button"
+                  aria-label="Next image">
+            &#10095;
+          </button>
+
+          <div class="slide-counter" aria-live="polite">
+            1 / 3
+          </div>
+        </div>
 
         <p class="project-description">
           Ren'Py visual novel role-playing game about entering various stories to rescue your friends.
@@ -111,11 +132,32 @@
           <span class="project-subtitle">CelleC Games</span>
         </h2>
 
-        <img
-          class="project-image"
-          src="TnT.jpg"
-          alt="Trick nor Treat (CelleC Games, n.d.)"
-        >
+        <div class="slideshow"
+          data-slideshow
+          data-images='["images/tnt-1.png","images/tnt-2.png","images/tnt-3.png", "images/tnt-4.png"]'>
+          
+          <button class="slide-arrow prev"
+                  type="button"
+                  aria-label="Previous image">
+            &#10094;
+          </button>
+
+          <img
+            class="slide-image"
+            src="images/tnt-1.png"
+            alt="Library on the Lake gameplay screenshot"
+          >
+
+          <button class="slide-arrow next"
+                  type="button"
+                  aria-label="Next image">
+            &#10095;
+          </button>
+
+          <div class="slide-counter" aria-live="polite">
+            1 / 3
+          </div>
+        </div>
 
         <p class="project-description">
           Unreal Engine 5 horror game with serious games educational elements about cryptids and folklore.
@@ -163,11 +205,32 @@
           <span class="project-subtitle">Solo Project</span>
         </h2>
 
-        <img
-          class="project-image"
-          src="learning_system.png"
-          alt="Solo project"
-        >
+        <div class="slideshow"
+          data-slideshow
+          data-images='["images/gls-1.png","images/gls-2.png","images/gls-4.png", "images/gls-3.png", "images/gls-5.png"]'>
+          
+          <button class="slide-arrow prev"
+                  type="button"
+                  aria-label="Previous image">
+            &#10094;
+          </button>
+
+          <img
+            class="slide-image"
+            src="images/gls-1.png"
+            alt="Library on the Lake gameplay screenshot"
+          >
+
+          <button class="slide-arrow next"
+                  type="button"
+                  aria-label="Next image">
+            &#10095;
+          </button>
+
+          <div class="slide-counter" aria-live="polite">
+            1 / 3
+          </div>
+        </div>
 
         <p class="project-description">
           Godot 4.7 project designed to modularize learning with casual gaming to reinforce learning.
@@ -209,5 +272,7 @@
     </main>
 
   </div>
+  
+<script src="slideshow.js"></script>
 </body>
 </html>
